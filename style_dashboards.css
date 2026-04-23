@@ -30,7 +30,7 @@ body {
 #container {
     width: 100vw;
     height: 100vh;
-    min-height: 100vh;
+    min-height: 95vh;
     container: dashboard / inline-size;
 }
 
@@ -46,7 +46,7 @@ body {
 #reverse-chart {
     flex: 1 1 50%;
     min-width: 0;
-    min-height: 50vh;
+    min-height: 95vh;
 }
 
 #forward-chart .highcharts-container,
