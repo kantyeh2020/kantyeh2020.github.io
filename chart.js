@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         tooltip: {
             shared: false,
-            pointFormat: "x: <b>{point.x}</b><br/>y: <b>{point.y}</b><br/>"
+            pointFormat: "<b>{series.name}</b><br/>x: <b>{point.x}</b><br/>y: <b>{point.y}</b><br/>"
         },
 
         plotOptions: {
